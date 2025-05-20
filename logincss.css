@@ -18,15 +18,32 @@ body{
     
 }
 .box{
-    width: 300px;
+    width: 270px;
     height: 200px;
     display: flex;
     border-radius: 16px;
     flex-direction: column;
-    background-color: #001969;
-    padding: 10px;
-    justify-items: center;
-    justify-content: space-around;
-    gap: 40xp;
+    background-color: #000000;
+    padding: 32px;
+    justify-content: center;
+    gap: 24px;
+    font-family: 'Shlop', sans-serif; 
+    color: #c50000;
+}
+.buton{
+    background-color: #5a0000;
+    font-family: 'Shlop', sans-serif; 
+    width: 45px;
+    flex-direction: row;
+}
+.container_input{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: #c50000;
     font-family: 'Shlop', sans-serif; 
 }
